@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NombreDetalles" />
+    <string name="TipoDetalles" />
+    <string name="DescripcionDetalles" />
+    <string name="NombreRv" />
+    <string name="TipoRv" />
+</resources>
