@@ -22,8 +22,8 @@ interface FlowerDao {
     suspend fun insertFlowerDetails(flowerDetails: FlowerDetail)
 
 
-    @Query ("SELECT * FROM Details_flowers WHERE id = id")
-    fun getFlowersDetailById(): LiveData<FlowerDetail>
+    @Query ("SELECT * FROM Details_flowers WHERE id = :id")
+    fun getFlowersDetailById(id:Int): LiveData<FlowerDetail>
 
 
 

@@ -14,6 +14,6 @@ interface FlowerApi {
 
 
     @GET ("plantas/{id}")
-        suspend fun fetchFlowersDetail(@Path ("id") id: Int) : Response<List<DetailsFlower>>
+        suspend fun fetchFlowersDetail(@Path ("id") id: Int) : Response<DetailsFlower>
 
 }
